@@ -46,7 +46,9 @@ cd credit-risk-scoring
 ```bash
 pip install -r requirements.txt
 ```
+
 _(Ensure your requirements.txt includes essential libraries: pandas, numpy, lightgbm, scikit-learn, joblib, matplotlib, seaborn)_
+
 ---
 
 ### Data Strategy & Management
