@@ -40,7 +40,7 @@ credit-risk-scoring/
 ```
 ---
 
-### Installation & Environment Setup
+## Installation & Environment Setup
 
 1. Clone this repository:
 
@@ -59,7 +59,7 @@ _(Ensure your requirements.txt includes essential libraries: pandas, numpy, ligh
 
 ---
 
-### Data Strategy & Management
+## Data Strategy & Management
 
 To keep the repository clean and optimized, large raw datasets are managed locally and isolated from source control versioning via .gitignore.
 
@@ -69,7 +69,7 @@ To keep the repository clean and optimized, large raw datasets are managed local
 
 ---
 
-### Execution Guide
+## Execution Guide
 
 1. Research & Exploration
 Open the notebooks inside the notebooks/ directory to review data distributions and prototyping steps:
@@ -95,7 +95,7 @@ _Outputs will be securely compiled in data/processed/test_predictions.csv._
 
 ---
 
-### Analytical Insights & Core Drivers
+## Analytical Insights & Core Drivers
 Using robust evaluation frameworks, behavioral credit metrics proved significantly more predictive than basic demographic variables like Annual Income or Age. The top predictors determining default tiers include:
 
 1. Outstanding Debt: The most significant coefficient determining risk classification.
