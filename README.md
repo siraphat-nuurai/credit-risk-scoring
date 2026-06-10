@@ -4,7 +4,15 @@ An enterprise-grade Machine Learning system designed to evaluate applicant credi
 
 ---
 
-## Executive  Project Summary
+## Data Source
+
+This dataset is sourced from the **[Credit Score Classification](https://www.kaggle.com/datasets/parisrohan/credit-score-classification)** project on Kaggle. 
+* **License:** Public Domain / CC0
+* **Data Description:** The dataset contains financial and behavioral features of credit applicants, used to categorize them into "Good", "Standard", and "Poor" risk tiers.
+
+---
+
+## Project Summary
 Real-world credit evaluation is often hindered by corrupted, non-linear financial data. This repository implements an end-to-end operational pipeline that cleans systemic data quality anomalies (e.g., negative demographic inputs, extreme interest rate artifacts) and categorizes borrower profiles into three predictive risk classifications:
 * **Good** (Low Default Risk — Recommended for Standard Processing)
 * **Standard** (Medium Default Risk — Flagged for Detailed Operational Review)
