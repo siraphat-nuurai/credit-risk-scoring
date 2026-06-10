@@ -1,8 +1,10 @@
 # .gitignore
 data/raw/
 data/processed/
+models/
 *.csv
 *.pkl
 *.joblib
 __pycache__/
 .env
+.ipynb_checkpoints/
